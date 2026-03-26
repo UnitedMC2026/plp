@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Like A Pro | Elite Baseball Training</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, .nav-brand { font-family: 'Montserrat', sans-serif; }
+        .hero-gradient {
+            background: linear-gradient(to bottom, rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.95)), 
+                        url('https://images.unsplash.com/photo-1544111306-03708e2d6313?q=80&w=2000&auto=format&fit=crop'); /* Placeholder for Indoor Facility */
+            background-size: cover;
+            background-position: center;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-white text-slate-900">
+
+    <nav class="sticky top-0 z-50 flex items-center justify-between px-8 py-5 bg-slate-900 text-white shadow-xl">
+        <div class="text-2xl font-extrabold tracking-tighter nav-brand">PLAY LIKE A PRO</div>
+        <div class="hidden lg:flex space-x-10 font-semibold text-sm uppercase tracking-widest text-slate-300">
+            <a href="#" class="hover:text-blue-400 transition">Programs</a>
+            <a href="#" class="hover:text-blue-400 transition">Memberships</a>
+            <a href="#" class="hover:text-blue-400 transition">Instructors</a>
+            <a href="#" class="hover:text-blue-400 transition">Team Arrows</a>
+        </div>
+        <div class="flex items-center space-x-4">
+            <button class="bg-blue-600 hover:bg-blue-500 text-white px-7 py-2.5 rounded text-sm font-bold uppercase transition">Schedule Now</button>
+        </div>
+    </nav>
+
+    <section class="relative hero-gradient min-h-[85vh] flex items-center px-8 text-white">
+        <div class="max-w-6xl mx-auto w-full">
+            <div class="inline-block px-4 py-1 border border-blue-400 text-blue-400 text-xs font-bold uppercase tracking-widest mb-6 rounded">
+                Official Home of MVP Organization - Team Arrows
+            </div>
+            <h1 class="text-5xl md:text-8xl font-black mb-6 leading-tight">PRECISION <br><span class="text-blue-500">PERFORMANCE.</span></h1>
+            <p class="text-xl md:text-2xl text-slate-300 max-w-2xl mb-10 leading-relaxed font-light">
+                Hauppauge's premier indoor training destination. Elevating athletes through elite coaching, modern data, and professional-grade cages.
+            </p>
+            <div class="flex flex-wrap gap-5">
+                <button class="bg-white text-slate-900 px-10 py-4 rounded font-bold hover:bg-blue-500 hover:text-white transition shadow-2xl">Explore Memberships</button>
+                <button class="border border-white/30 bg-white/5 backdrop-blur-md px-10 py-4 rounded font-bold hover:bg-white/10 transition">Virtual Facility Tour</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-slate-100 py-10 border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-8">
+            <p class="text-center text-xs font-bold text-slate-400 uppercase tracking-[0.2em] mb-8">Trusted by Local Athletes From</p>
+            <div class="flex flex-wrap justify-center items-center gap-12 grayscale opacity-60">
+                <div class="text-xl font-bold italic text-slate-600">HAUPPAUGE</div>
+                <div class="text-xl font-bold italic text-slate-600">SMITHTOWN</div>
+                <div class="text-xl font-bold italic text-slate-600">KINGS PARK</div>
+                </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-8 bg-white">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+            <div class="relative">
+                <div class="absolute -top-4 -left-4 w-24 h-24 border-t-4 border-l-4 border-blue-600"></div>
+                <img src="https://i.ibb.co/LdxC30tX/image-4dad45.png" alt="Chris Scura" class="w-full h-auto rounded shadow-2xl relative z-10">
+                <div class="absolute -bottom-6 -right-6 w-full h-full border border-slate-200 rounded -z-0"></div>
+            </div>
+            <div>
+                <h2 class="text-sm font-bold text-blue-600 uppercase tracking-widest mb-4">Lead Instructor</h2>
+                <h3 class="text-5xl font-black text-slate-900 mb-6">Chris Scura</h3>
+                <p class="text-lg text-slate-600 leading-relaxed mb-8">
+                    An integral part of the MVP Organization and Team Arrows development program, Chris focuses on elite-level swing mechanics and high-performance mental conditioning. 
+                </p>
+                <div class="grid grid-cols-2 gap-6 mb-8">
+                    <div class="p-4 border-l-2 border-blue-600 bg-slate-50">
+                        <span class="block font-bold text-slate-900">High Performance</span>
+                        <span class="text-sm text-slate-500">Next-gen hitting metrics.</span>
+                    </div>
+                    <div class="p-4 border-l-2 border-blue-600 bg-slate-50">
+                        <span class="block font-bold text-slate-900">MVP Standard</span>
+                        <span class="text-sm text-slate-500">Arrows Team philosophy.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-slate-900 text-white overflow-hidden">
+        <div class="max-w-4xl mx-auto px-8 text-center">
+            <h2 class="text-3xl font-bold mb-16">Player & Parent Testimonials</h2>
+            <div class="space-y-8">
+                <div class="glass-card p-10 rounded-2xl relative">
+                    <span class="absolute top-4 left-6 text-6xl text-blue-500/20 font-serif">"</span>
+                    <p class="text-xl italic text-slate-300 leading-relaxed">"The transition to the new facility under Play Like A Pro has been incredible. The focus on development for the Team Arrows boys is unmatched in the area."</p>
+                    <div class="mt-6 font-bold text-blue-400">— Travel Team Parent</div>
+                </div>
+            </div>
+            <div class="flex justify-center mt-8 space-x-2">
+                <div class="w-3 h-3 bg-blue-600 rounded-full"></div>
+                <div class="w-3 h-3 bg-slate-700 rounded-full"></div>
+                <div class="w-3 h-3 bg-slate-700 rounded-full"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white py-20 px-8 border-t border-slate-100">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-4 gap-12">
+            <div class="col-span-2 md:col-span-1">
+                <div class="text-xl font-black mb-6">PLAY LIKE A PRO</div>
+                <p class="text-slate-500 text-sm leading-loose">
+                    114 Parkway Dr S<br>
+                    Hauppauge, NY 11788<br>
+                    (631) 670-6355
+                </p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-6 uppercase text-xs tracking-widest text-slate-400">Quick Links</h4>
+                <ul class="space-y-4 text-sm font-semibold text-slate-600">
+                    <li><a href="#" class="hover:text-blue-600">Facility Rental</a></li>
+                    <li><a href="#" class="hover:text-blue-600">Lesson Booking</a></li>
+                    <li><a href="#" class="hover:text-blue-600">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-6 uppercase text-xs tracking-widest text-slate-400">Follow Us</h4>
+                <div class="flex space-x-4">
+                    <a href="#" class="w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center hover:bg-blue-50 transition text-slate-400 hover:text-blue-600 font-bold text-xs uppercase">IG</a>
+                    <a href="#" class="w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center hover:bg-blue-50 transition text-slate-400 hover:text-blue-600 font-bold text-xs uppercase">FB</a>
+                    <a href="#" class="w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center hover:bg-blue-50 transition text-slate-400 hover:text-blue-600 font-bold text-xs uppercase">X</a>
+                    <a href="#" class="w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center hover:bg-blue-50 transition text-slate-400 hover:text-blue-600 font-bold text-xs uppercase">TT</a>
+                </div>
+            </div>
+            <div>
+                <h4 class="font-bold mb-6 uppercase text-xs tracking-widest text-slate-400">Notifications</h4>
+                <p class="text-xs text-slate-500 mb-4 font-medium italic">Join our text & email list for scheduling updates.</p>
+                <div class="flex">
+                    <input type="text" placeholder="Email" class="bg-slate-50 border-y border-l border-slate-200 px-4 py-2 w-full text-sm rounded-l">
+                    <button class="bg-slate-900 text-white px-4 py-2 rounded-r font-bold text-xs uppercase">Join</button>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto mt-20 pt-8 border-t border-slate-50 text-[10px] text-slate-400 uppercase tracking-widest flex justify-between">
+            <div>© 2026 Play Like A Pro Baseball</div>
+            <div>Powered by SendGrid & Twilio</div>
+        </div>
+    </footer>
+
+</body>
+</html>
